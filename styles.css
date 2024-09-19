@@ -1,0 +1,56 @@
+/* Main Areas */
+
+body {
+    padding: 15px;
+    background-color: #373A40 !important;
+    color: #EEEEEE !important;
+}
+
+/* Sections */
+
+.header {
+    padding: 5px;
+}
+
+.navigation {
+    padding: 5px;
+}
+
+.about {
+    padding: 20px 0;
+}
+
+.contact {
+    padding: 30px 0;
+}
+
+.footer {
+
+}
+
+/* Elements */
+
+hr {
+    width: 25%;
+    margin: 20px auto 10px !important;
+    border-top: 5px dotted !important;
+    color: lightgrey !important;
+    /* color: #DC5F00 !important; */
+}
+
+i {
+    padding: 3px;
+    font-size: 2rem;
+    opacity: .45;
+}
+
+img.cade {
+    width: 20%;
+}
+
+/* img.logo { */
+    /* width: 5%; */
+/* } */
+.footerText {
+    font-size: 9px;
+}
