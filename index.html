@@ -1,160 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Cade Lott</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cade Lott | Grant Writer, Curriculum Designer &amp; Author</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ab03888086.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <div class="container-md header px-5">
-        <div class="row align-items-center justify-content-center">
-            <div class="col">
-                <h1>Cade Lott</h1>
-                <p class="tagline">Official Website</p>
-            </div>
-            <div class="col text-end">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-square-x-twitter"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-solid fa-envelope"></i>
-                <i class="fa-solid fa-book"></i>
-            </div>
-        </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="brand">
+        <img src="images/logo.png" alt="Cade Lott Logo" class="logo">
+        <span>Cade Lott</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#consulting">Consulting</a></li>
+        <li><a href="#writing">Writing Portfolio</a></li>
+        <li><a href="#contact" class="nav-cta">Inquire</a></li>
+      </ul>
     </div>
+  </nav>
 
-    <div class="container navigation px-5">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center">
-            <div class="container-fluid">
-                <div class="col-3">
-                    <a class="navbar-brand">
-                        <img class="logo" src="images/logo.png" alt="Logo" width="35">
-                    </a>
-                </div>
-                <div class="col">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active px-5" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-5" href="#">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-5" href="#">Poetry</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-5" href="#">Short Stories</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">Grant Writing • Curriculum Design • Fiction &amp; Non-Fiction</p>
+      <h1>Compelling narratives that secure funding, transform classrooms, and tell the truth.</h1>
+      <p class="subtitle">
+        Whether crafting high-stakes grant proposals, designing accessible curricula, or writing Southern Gothic fiction and memoir, I bring lived experience and narrative precision to every page.
+      </p>
+      <div class="hero-actions">
+        <a href="#consulting" class="btn primary">Consulting Services</a>
+        <a href="#writing" class="btn secondary">Read Selected Works</a>
+      </div>
     </div>
+  </header>
 
-    <div class="container about px-5">
-        <div class="row justify-content-evenly align-items-center gx-5 gy-5">
-            <div class="col-md-3 col-md quote">
-                <div class="hstack gap-3">
-                    <div>
-                        <img class="img-fluid" src="images/quote.png" alt="Virginia Wolfe Quote">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-md">
-                <h3>About</h3>
-                <p></p>
-                <p>Hey there, I’m Cade, a freelance writer. When I’m not enjoying the outdoors, I’m reading a horror
-                    novel
-                    or
-                    transforming the world one sentence at a time.
-                </p>
-                <p> Like most writers, I fantasize of constructing an unputdownable novel worthy of comparison with
-                    geniuses
-                    like
-                    the King, Straub, or Jackson (Shirley).
-                </p>
-                <p> I won my first international literary competition at fourteen; I gained my first credit as a
-                    published
-                    writer
-                    later the same year.
-                </p>
-                <p> While you’re here, I hope you’ll scroll through some of my blogs and/or short stories. Tell me what
-                    you
-                    think,
-                    or just read a few.
-                </p>
-                <p> I love reading work from other aspiring writers, too. Drop me a line if you’re interested in a
-                    critique
-                    session.
-                </p>
-            </div>
+  <main>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="images/quote.png" alt="Literary Quote">
         </div>
+        <div class="about-text">
+          <h2>About Cade</h2>
+          <p>
+            Great writing—whether for a federal grant panel, a high school classroom, or a literary journal—starts with understanding human stakes.
+          </p>
+          <p>
+            My path to the page hasn’t been linear. Before earning my MFA and stepping into special education and curriculum development, I worked in law enforcement and criminal investigation, trained horses, and navigated the hard-earned lessons of real life—both the triumphs and the fractures. Those experiences inform everything I write.
+          </p>
+          <p>
+            An international literary competition winner at fourteen and a published writer ever since, I now partner with nonprofits, educators, and organizations as a <strong>grant writing and curriculum consultant</strong>, while continuing to publish <strong>fiction, arts journalism, and personal non-fiction</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Consulting Services Section -->
+    <section id="consulting" class="section alt-bg">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Consulting &amp; Advisory</p>
+          <h2>Grant Writing &amp; Curriculum Design</h2>
+          <p class="section-intro">Helping nonprofits, school districts, and community organizations turn bold ideas into funded, actionable programs.</p>
+        </div>
+
+        <div class="grid-2">
+          <article class="card">
+            <div class="card-icon"><i class="fa-solid fa-file-signature"></i></div>
+            <h3>Grant Writing &amp; Proposal Development</h3>
+            <p>End-to-end grant research, narrative framing, and persuasive proposal writing tailored for educational institutions, arts organizations, and community nonprofits.</p>
+            <ul class="feature-list">
+              <li>Needs assessments &amp; program narrative design</li>
+              <li>Foundation, state, and federal grant proposals</li>
+              <li>Logic models, evaluation plans, and editing</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <h3>Curriculum Design &amp; Instructional Strategy</h3>
+            <p>Research-backed, engaging curricula built from hands-on classroom and special education experience—designed to reach diverse learners without sacrificing rigor.</p>
+            <ul class="feature-list">
+              <li>Standards-aligned unit &amp; course architecture</li>
+              <li>Special education accommodations &amp; UDL integration</li>
+              <li>Humanities, writing, and interdisciplinary modules</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Writing Portfolio Section -->
+    <section id="writing" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Selected Works</p>
+          <h2>Writing Portfolio</h2>
+          <p class="section-intro">A cross-section of narrative storytelling, lived-experience non-fiction, and professional writing samples.</p>
+        </div>
+
+        <div class="grid-3">
+          <!-- Fiction Card -->
+          <article class="card portfolio-card">
+            <div>
+              <span class="tag">Fiction</span>
+              <h3>Southern Gothic &amp; Dark Literary Fiction</h3>
+              <p>Character-driven short stories and novel excerpts exploring moral complexity, memory, and the landscapes of the American South.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#contact" class="text-link">Request Reading Sample &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Non-Fiction / Memoir Card -->
+          <article class="card portfolio-card">
+            <div>
+              <span class="tag">Non-Fiction &amp; Memoir</span>
+              <h3>Essays on Service, Grit &amp; Grace</h3>
+              <p>Candid personal essays and memoir excerpts reflecting on years in law enforcement, investigations, working with animals, and the hard roads that shape us.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#contact" class="text-link">Read Essays &amp; Excerpts &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Grant & Curriculum Samples Card -->
+          <article class="card portfolio-card">
+            <div>
+              <span class="tag">Grants &amp; Curriculum</span>
+              <h3>Funded Proposals &amp; Unit Blueprints</h3>
+              <p>Redacted grant narratives, executive summaries, and sample curriculum frameworks demonstrating measurable outcomes and clear voice.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#contact" class="text-link">Request Consulting Packet &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section alt-bg">
+      <div class="container contact-wrapper">
+        <div class="contact-info">
+          <p class="eyebrow">Get in Touch</p>
+          <h2>Let’s Work Together</h2>
+          <p>
+            Looking for a grant writer, a curriculum consultant, or an editorial collaborator? Send a note below with a few details about your project or timeline.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="X Twitter"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+        </div>
+
+        <!-- Replace YOUR_FORM_ID with a free endpoint from Formspree.io -->
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@organization.com" required>
+          </div>
+          <div class="form-group">
+            <label for="inquiry-type">Area of Interest</label>
+            <select id="inquiry-type" name="inquiry-type">
+              <option value="grant-writing">Grant Writing Consulting</option>
+              <option value="curriculum-design">Curriculum Design Consulting</option>
+              <option value="fiction-nonfiction">Fiction / Non-Fiction / Press</option>
+              <option value="other">Other Collaboration</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Project Details</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell me about your organization, project, or inquiry..." required></textarea>
+          </div>
+          <button type="submit" class="btn primary full-width">Send Inquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Cade Lott. All rights reserved.</p>
+      <p class="credit">Site design by Amy Lott</p>
     </div>
-
-    <hr>
-
-    <div class="container contact px-5 gy-5">
-        <div class="row justify-content-center">
-            <div class="col-4 text-center">
-                <h3>Contact Me</h3>
-                <p>I am available for collaborations and critiques. I look forward to hearing from you.</p>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-4">
-                <form>
-                    <div class="mb-3">
-                        <input class="form-control" type="text" placeholder="Name" aria-label="default input example">
-                    </div>
-                    <div class="mb-3">
-                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
-                            placeholder="Email Address">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                    </div>
-                    <button type="submit" class="btn btn-secondary shadow"
-                        style="--bs-btn-padding-y: .2rem; --bs-btn-padding-x: 5rem; --bs-btn-font-size: 1rem;">Submit</button>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-
-    <script src="https://kit.fontawesome.com/ab03888086.js" crossorigin="anonymous"></script>
+  </footer>
 
 </body>
-
-<footer>
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col">
-                <p class="footerText">Created by: Amy Lott</p>
-            </div>
-            <div class="col text-end">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-square-x-twitter"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-solid fa-envelope"></i>
-                <i class="fa-solid fa-book"></i>
-            </div>
-        </div>
-    </div>
-</footer>
-
 </html>
